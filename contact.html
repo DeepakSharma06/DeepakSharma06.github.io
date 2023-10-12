@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- lets start styling the contact form  -->
+
+  <style>
+    body {
+      background-color: rgb(0, 0, 0);
+    }
+
+    h1 {
+      font-family: 'Poppins', sans-serif, 'arial';
+      font-weight: 700;
+      font-size: 72px;
+      color: rgb(188, 183, 183);
+      text-align: center;
+      margin-top: 1em;
+    }
+
+    h4 {
+      text-align: center;
+      font-family: 'Roboto', sans-serif, 'arial';
+      font-weight: 400;
+      font-size: 20px;
+      color: #9b9b9b;
+      line-height: 1.5;
+    }
+
+    /* ///// inputs /////*/
+
+    input:focus~label,
+    textarea:focus~label,
+    input:valid~label,
+    textarea:valid~label {
+      font-size: 0.75em;
+      color: #999;
+      top: -5px;
+      -webkit-transition: all 0.225s ease;
+      transition: all 0.225s ease;
+    }
+
+    .styled-input {
+      float: left;
+      width: 293px;
+      margin: 1rem 0;
+      position: relative;
+      border-radius: 4px;
+    }
+
+    .styled-input label {
+      color: #999;
+      padding: 1.3rem 30px 1rem 30px;
+      position: absolute;
+      top: 10px;
+      left: 0;
+      -webkit-transition: all 0.25s ease;
+      transition: all 0.25s ease;
+      pointer-events: none;
+    }
+
+    .styled-input.wide {
+      width: 650px;
+      max-width: 100%;
+    }
+
+    input,
+    textarea {
+      padding: 30px;
+      border: 0;
+      width: 100%;
+      font-size: 1rem;
+      background-color: #2d2d2d;
+      color: white;
+      border-radius: 4px;
+    }
+
+    input:focus,
+    textarea:focus {
+      outline: 0;
+    }
+
+    input:focus~span,
+    textarea:focus~span {
+      width: 100%;
+      -webkit-transition: all 0.075s ease;
+      transition: all 0.075s ease;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 15em;
+    }
+
+    .int {
+      width: 650px;
+      max-width: 100%;
+      margin: 20px auto 25px auto;
+    }
+
+
+    .submit-btn {
+      padding: 5px;
+      border-radius: 6px;
+      display: inline-block;
+      background-color: #4b8cfb;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      width:25vh;
+    }
+
+    .ph {
+      float: right;
+    }
+
+    .submit-btn:hover {
+      transform: translateY(1px);
+      
+    }
+
+    @media (max-width: 768px) {
+      .submit-btn {
+        width: 100%;
+        float: none;
+        text-align: center;
+      }
+    }
+
+    input[type=reset]{
+      background-color: rgb(236, 87, 87);
+      margin-left:2vh;
+    }
+    input[type=checkbox]+label {
+      color: #ccc;
+      font-style: italic;
+    }
+
+    input[type=checkbox]:checked+label {
+      color: #f00;
+      font-style: normal;
+    }
+  </style>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">
+        Port<span class="port">Folio</span>
+      </div>
+      <div class="right">
+
+        <ul>
+          <li> <a href="index.html">Home</a></li>
+          <li> <a href="about.html">about</a></li>
+          <li> <a href="skills.html">skills</a></li>
+          <li> <a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <form>
+      <div>
+        <h1>contact us</h1>
+      </div>
+      <div>
+        <h4>We'd love to hear from you!</h4>
+      </div>
+      <div class="int">
+        <div >
+          <div class="styled-input wide">
+            <input type="text"  required />
+            <label>Name</label>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="styled-input">
+            <input type="email" required />
+            <label>Email</label>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="styled-input ph">
+            <input type="number" required />
+            <label>Phone Number</label>
+          </div>
+        </div>
+        <div>
+          <div class="styled-input wide">
+            <textarea required></textarea>
+            <label>Message</label>
+          </div>
+        </div>
+        <div>
+          <input type="submit" class="submit-btn" value="Send Message">
+          <input type="reset" class="submit-btn" value="Reset inputs">
+        </div> 
+      </div>
+      
+    </form>
+  </main>
+
+  <div class="bkbtn">
+    
+    <a href="about.html"> <span class="dot">.</span>Go to Previous Page</a>
+  </div>
+
+</body>
+
+</html>

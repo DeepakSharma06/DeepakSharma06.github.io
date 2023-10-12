@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    margin: 9vh 5vh;
+}
+.leftimg{
+    margin:10vh 15vh;
+    
+}
+
+.leftimg img{
+    width:55vh;
+    height:70vh;
+
+}
+
+.abt{
+    margin-top:10vh;
+    margin-left: 1.8rem;
+}
+.abt h1{
+    color:rgb(169, 117, 237);
+    text-align:left;
+    margin-top: 4rem;
+    margin-bottom: 1.6rem;
+    font-family:"Poppins - Google Fonts";
+    font-size: 2.8rem;    
+}
+
+.abt p{
+    font-size: 1.3rem;
+    font-family:"Poppins - Google Fonts";
+}
+.abtme{
+    margin:0.6rem;
+    font-family:"Poppins - Google Fonts";
+    font-size: 1.1rem;
+    word-spacing: 0.12rem;
+}
+.abt .name{
+    color:rgb(235, 133, 133);
+    text-transform: uppercase;
+}
+.abtme span{
+    font-size: 1.3rem;
+}
+

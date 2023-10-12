@@ -2,65 +2,56 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>DeepakSharma06</title>
-   <link rel="stylesheet" href="about.html">
-   <style>
-      .navbar {
-         background-color: lightgoldenrodyellow;
-         border-radius: 30px;
-      }
-
-      .navbar li {
-         float: left;
-         list-style: none;
-         margin: 13px 20px;
-
-      }
-
-      .navbar ul {
-         overflow: auto;
-      }
-
-      .navbar li a {
-         text-decoration: none;
-         color: red;
-         padding: 10px;
-        
-         
-      }
-
-      .navbar input {
-         padding: 5px 15px;
-         color: orangered
-         
-         
-      }
-      P{
-         font-size: 15px;
-         font-family: "Times New Roman"
-         color: black 
-         margin : 4px 2px;
-         
-      }
-   </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
 <body>
-   <header>
-      <nav class="navbar">
-         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <div class="search">
-               <input type="text" name="search" id="search" placeholder="Search this website">
-            </div>
-         </ul>
-      </nav>
-   </header>
-   <p>Hi, I'm Deepak Sharma. If you want to see my Python programs so just click on about section. Hey subscribe my channelname is <strong>XmetdS</strong></p>
+  <header>
+    <nav>
+      <div class="left">
+        Port<span class="port">Folio</span>
+      </div>
+      <div class="right">
+
+        <ul>
+          <li> <a href="index.html">Home</a></li>
+          <li> <a href="about.html">about</a></li>
+          <li> <a href="skills.html">skills</a></li>
+          <li> <a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hello, My name is <span class="purple">Deepak Sharma</span>
+
+        <div>and I'm a</div>
+        <span id="element"></span>
+      </div>
+      <div class="rightSection">
+        <img src="" alt="">
+      </div>
+
+    </section>
+    
+  </main>
+
+  <!-- slider type js -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'A Web Designer',],
+      typeSpeed: 85,
+    });
+  </script>
 </body>
 
 </html>

@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: 'popins', sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(0, 0, 0);
+  height: 80px;
+}
+nav ul{
+  display:flex; 
+  justify-content:center;
+
+}
+nav ul li{
+  list-style:none;
+  margin-right: 50px;
+
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:white;
+  font-size: 3.5vh;
+  font-family: 'Lora', serif;
+  text-transform: capitalize;
+
+}
+nav ul li a:hover{
+  color:rgb(153, 153, 226);
+  font-size: 1.44rem;
+  
+
+}
+.left{
+ font-size: 2.4rem;
+ margin: 0 60px;
+ text-transform: capitalize;
+ background-color:rgb(153, 126, 204);
+ width: 27vh;
+ text-align: center;
+ border-radius: 5px;
+ color: #d5d3ef;
+}
+/* style hr line */
+main hr{
+  border:0;
+  background-color: #9c97f1;
+  height: 1.2rem;
+  margin: 60px 84
+}
+.port{
+  color:rgb(130, 16, 238);
+}
+.firstSection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:130px 0;
+
+}
+.firstSection > div{
+  width:30%;
+
+}
+.leftSection{
+  font-size: 3rem;
+
+}
+.rightSection img{
+  width:80%;
+}
+.purple{
+  color:rgb(170,107,228);
+}
+
+.text-grey{
+  color: grey;
+}
+#element{
+  color:rgb(170,107,228);
+}
+
+/* style about menu file */
+
+/* html styling */
+
+/* backbotton styling  */
+.bkbtn{
+  
+  margin: 50px 50px;
+  
+  
+}
+.bkbtn a .dot{
+  font-size: 70px;
+  margin: 10px 3px;
+}
+.bkbtn a .dot:hover{
+  color: rgb(91, 113, 238);
+}
+.bkbtn a{
+  text-decoration: none;
+  color:azure;
+  width:200px;
+}
+.bkbtn a:hover{
+  color: rgb(91, 113, 238);
+}
+
+.fskill{ 
+  display:flex;
+  margin: 100px 50px;
+  height:90vh;
+}
+.fhtml{
+  width: 70vh  
+}
+
+
+.para{
+  margin: 165px 50px;
+}
+.para h1{
+  color:#382eed;
+  text-align: center;
+  font-size: 7vh;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.para p{
+  text-align: justify;
+  margin: 10px 50px;
+  color:rgb(153, 158, 219);
+  font-size: 2.7vh;
+
+}
+
+/* style css skills */
+
+.sskill{ 
+  display:flex;
+  margin: 100px 122px;
+  height:70vh;
+}
+.Scss{
+  width: 50vh;
+}
+
+.para2{
+  margin: 50px 50px;
+}
+.para2 h1{
+  color:#382eed;
+  text-align: center;
+  font-size: 7vh;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.para2 p{
+  text-align: justify;
+  margin: 10px 60px;
+  color:rgb(153, 158, 219);
+  font-size: 2.7vh;
+
+}
+
+/* style Javascript */
+
+
+.tskill{ 
+  display:flex;
+  margin: 100px 65px;
+  height:50vh;
+}
+.tjs{
+  width: 65vh;
+}
+
+.para3{
+  margin: 50px 40px;
+}
+.para3 h1{
+  color:#382eed;
+  text-align: center;
+  font-size: 9vh;
+  margin-bottom: 12px;
+  text-transform: capitalize;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.para3 p{
+  text-align: justify;
+  margin: 12px 50px;
+  color:rgb(153, 158, 219);
+  font-size: 2.7vh;
+
+}
+
+
+
+
